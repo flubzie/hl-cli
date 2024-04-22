@@ -1,6 +1,6 @@
 # hl-cli
 
-Hyperliquid CLI built in Python.
+Hyperliquid CLI built in Python. (in progress)
 
 *not the final version of this code so expect it to be messy in some cases.*
 
