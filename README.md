@@ -2,9 +2,10 @@
 
 Hyperliquid CLI built in Python.
 
-__dont judge my code ill clean it up one day.__
+*not the final version of this code so expect it to be messy in some cases.*
 
 *Only supports perps for now, spot support coming soon maybe
+
 *I'll make this an executable one day, need to figure out how to manage credentials
 
 ## Initial setup instructions
@@ -13,6 +14,7 @@ __dont judge my code ill clean it up one day.__
 - Install poetry, use the recommended instructions [here](https://python-poetry.org/docs/#installing-with-pipx) (at time of writing use pipx)
 - Clone this repo into a directory of your choice, initiate your poetry environment with `poetry install && poetry shell` (recommended to run `poetry install` anytime you git pull updates to make sure your local environment is up to date)
 - Start up your virtual environment with `poetry shell`
+- Create a `.env` file in the root directory, this file will remain private to you as it is git ignored from being commited. Add `PRIVATE_KEY=<YOUR_PRIVATE_KEY>` into this file so that the cli tool can connect to your hyperliquid account.
 - Run `hl-cli` to start up the Hyperliquid CLI interactive shell started
 
 ## Everyday instructions
