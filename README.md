@@ -12,7 +12,7 @@ Hyperliquid CLI built in Python.
 - Install pyenv, follow instructions [here](https://github.com/pyenv/pyenv?tab=readme-ov-file#installation)
 - Install python 3.7.17 with pyenv (or pyenv-win for windows): `pyenv install 3.7.17`
 - Install poetry, use the recommended instructions [here](https://python-poetry.org/docs/#installing-with-pipx) (at time of writing use pipx)
-- Clone this repo into a directory of your choice, initiate your poetry environment with `poetry install && poetry shell` (recommended to run `poetry install` anytime you git pull updates to make sure your local environment is up to date)
+- Clone this repo into a directory of your choice, `cd` into it, initiate your poetry environment with `poetry install && poetry shell` (recommended to run `poetry install` anytime you git pull updates to make sure your local environment is up to date)
 - Start up your virtual environment with `poetry shell`
 - Create a `.env` file in the root directory, this file will remain private to you as it is git ignored from being commited. Add `PRIVATE_KEY=<YOUR_PRIVATE_KEY>` into this file so that the cli tool can connect to your hyperliquid account.
 - Run `hl-cli` to start up the Hyperliquid CLI interactive shell started
