@@ -2,8 +2,6 @@
 
 Hyperliquid CLI built in Python. (in progress)
 
-*not the final version of this code so expect it to be messy in some cases.*
-
 *Only supports perps for now, spot support coming soon maybe
 
 *I'll make this an executable one day, need to figure out how to manage credentials
