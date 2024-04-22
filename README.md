@@ -4,7 +4,7 @@ Hyperliquid CLI built in Python. (in progress)
 
 *Only supports perps for now, spot support coming soon maybe
 
-*I'll make this an executable one day, need to figure out how to manage credentials
+*I'll make this an executable one day, need to figure out how to manage credentials EDIT: ok so making this an executable isnt hard but making it an executable that runs on windows (not my OS) with python 3.7 which is no longer distributed aside from with pyenv seems like a huge pain in the butt so i probably wont do this
 
 ## Initial setup instructions
 - Install pyenv, follow instructions [here](https://github.com/pyenv/pyenv?tab=readme-ov-file#installation)

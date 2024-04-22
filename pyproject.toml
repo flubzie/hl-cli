@@ -6,7 +6,7 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.7, <3.11"
 eth-account = "^0.8.0"
 eth-utils = "2.2.0"
 eth-abi = "^3.0.1"
@@ -19,6 +19,9 @@ colorama = "^0.4.6"
 
 [tool.poetry.scripts]
 hl-cli = "hl_cli.main:cli"
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "4.7"
 
 [build-system]
 requires = ["setuptools", "poetry-core"]
