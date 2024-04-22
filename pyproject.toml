@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "hl-cli"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+eth-account = "^0.8.0"
+eth-utils = "2.2.0"
+eth-abi = "^3.0.1"
+hyperliquid-python-sdk = "^0.2.3"
+python-dotenv = "0.20.0"
+typing-extensions = "4.7.1"
+prompt-toolkit = "^3.0.43"
+pprintpp = "^0.4.0"
+colorama = "^0.4.6"
+
+[tool.poetry.scripts]
+hl-cli = "hl_cli.main:cli"
+
+[build-system]
+requires = ["setuptools", "poetry-core"]
+build-backend = "poetry.core.masonry.api"
